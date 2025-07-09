@@ -146,7 +146,10 @@ def dashboard_page():
         fig = px.bar(roles_df, x="Role", y=["Min Salary", "Max Salary"],
                     title="Salary Ranges by Job Role",
                     barmode="group")
-        fig.update_xaxis(tickangle=45)
+        for ax in fig.axes:
+           for label in ax.get_xticklabels():
+             label.set_rotation(45)
+
         st.plotly_chart(fig, use_container_width=True)
     
     with col2:
