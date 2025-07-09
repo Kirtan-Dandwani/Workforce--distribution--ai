@@ -385,7 +385,7 @@ def analytics_page():
         salary_df = pd.DataFrame(salary_data)
         fig = px.bar(salary_df, x="Role", y="Average Salary",
                     title="Average Salary by Role")
-        fig.update_xaxis(tickangle=45)
+        fig.update_layout(xaxis_tickangle=45)
         st.plotly_chart(fig, use_container_width=True)
     
     # Skill demand analysis
