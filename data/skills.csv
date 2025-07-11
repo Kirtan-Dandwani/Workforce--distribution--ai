@@ -9,7 +9,7 @@ id,name,category,description,weight
 8,Angular,Technical,Proficiency in Angular,1.55
 9,Node.js,Technical,Proficiency in Node.js,1.63
 10,Docker,Technical,Proficiency in Docker,1.24
-11,Kubernetes,Technical,Proficiency in Kubernetes,1.7
+11,Kubernetes,Technical,Proficiency in Kubernetes,1.9
 12,AWS,Technical,Proficiency in AWS,1.33
 13,Azure,Technical,Proficiency in Azure,1.32
 14,GCP,Technical,Proficiency in GCP,1.28
